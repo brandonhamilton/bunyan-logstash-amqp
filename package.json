@@ -1,0 +1,25 @@
+{
+  "name": "bunyan-logstash-amqp",
+  "version": "1.0.0",
+  "description": "Logstash stream via AMQP for the Bunyan logger",
+  "main": "lib/logstash.hs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandonhamilton/bunyan-logstash-amqp.git"
+  },
+  "author": "Brandon Hamilton <brandon.hamilton@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "logstash",
+    "bunyan",
+    "amqp",
+    "rabbitmq"
+  ],
+  "dependencies": {
+    "amqp": "0.2.x",
+    "lodash": "^3.5.0"
+  },
+  "peerDependencies": {
+    "bunyan": "1.x"
+  }
+}
