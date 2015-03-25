@@ -11,28 +11,11 @@ var bunyan = require('bunyan'),
 
 describe('bunyan-logstash-amqp', function() {
 
-  it('should create a writable stream', function(done){
+  it('should create a bunyan stream', function(done){
     var s = bunyanamqp.createStream();
     expect(s).to.be.an.instanceof(bunyanamqp.LogstashStream);
+    expect(s).to.respondTo('write');
     done();
   });
 
-  it('log to rabbimq', function(done){
-    var log = bunyan.createLogger({
-      name: 'logstash-amqp',
-      streams: [
-        {
-          level: 'debug',
-          stream: process.stdout
-        },
-        {
-          level: 'debug',
-          type: "raw",
-          stream: bunyanamqp.createStream()
-        }
-      ]
-    });
-    log.debug('test');
-    done();
-  });
 });
