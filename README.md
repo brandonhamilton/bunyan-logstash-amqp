@@ -161,6 +161,12 @@ The ``options`` object accepts the following fields:
     <td><code>100</code></td>
     <td>Outstanding message buffer size</td>
   </tr>
+  <tr>
+    <th>messageFormatter</th>
+    <td>function</td>
+    <td><code>undefined</code></td>
+    <td>Optional message formatting function</td>
+  </tr>
 </table>
 
 The **exchange** object accepts the following fields:
