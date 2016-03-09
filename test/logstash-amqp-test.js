@@ -6,8 +6,7 @@
 var bunyan = require('bunyan'),
     bunyanamqp = require("../lib/logstash-amqp"),
     chai = require('chai'),
-    expect = require('chai').expect,
-    assert = require('assert');
+    expect = require('chai').expect;
 
 describe('bunyan-logstash-amqp', function() {
 
