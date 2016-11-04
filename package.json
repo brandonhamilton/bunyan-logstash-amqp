@@ -1,6 +1,6 @@
 {
   "name": "bunyan-logstash-amqp",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Logstash stream via AMQP for the Bunyan logger",
   "main": "lib/logstash-amqp.js",
   "repository": {
@@ -19,15 +19,15 @@
     "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "dependencies": {
-    "CBuffer": "^1.1.1",
-    "amqp": "postwait/node-amqp#v0.2.5"
+    "CBuffer": "^2.0.0",
+    "amqp": "^0.2.6"
   },
   "peerDependencies": {
     "bunyan": "1.x"
   },
   "devDependencies": {
-    "bunyan": "^1.7.1",
+    "bunyan": "^1.8.4",
     "chai": "^3.5.0",
-    "mocha": "^2.4.5"
+    "mocha": "^3.1.2"
   }
 }
