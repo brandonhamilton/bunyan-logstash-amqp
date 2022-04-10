@@ -1,8 +1,6 @@
 # Logstash AMQP stream for Bunyan
 
 [![Build Status](https://travis-ci.org/brandonhamilton/bunyan-logstash-amqp.svg)](https://travis-ci.org/brandonhamilton/bunyan-logstash-amqp)
-[![Dependency Status](https://david-dm.org/brandonhamilton/bunyan-logstash-amqp.svg)](https://david-dm.org/brandonhamilton/bunyan-logstash-amqp)
-[![devDependency Status](https://david-dm.org/brandonhamilton/bunyan-logstash-amqp/dev-status.svg)](https://david-dm.org/brandonhamilton/bunyan-logstash-amqp#info=devDependencies)
 
 Logstash stream via AMQP for the Bunyan logger
 
